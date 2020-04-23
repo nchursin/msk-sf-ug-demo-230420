@@ -1,11 +1,23 @@
 {
-  "packageDirectories": [
-    {
-      "path": "app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "app",
+            "default": true
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "48.0",
+    "plugins": {
+        "ngx": {
+            "packageManager": "yarn",
+            "buildScriptName": "build",
+            "sfdcApiVersion": "48.0",
+            "sfdcPath": "app/angular",
+            "sfdcVfPageName": "ngxSfdc",
+            "sfdcResourceName": "ngxSfdcResources",
+            "ngPath": "ng-app",
+            "ngProject": "ng-app"
+        }
     }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "48.0"
 }

@@ -1,0 +1,36 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false" docType="html-5.0" applyHtmlTag="false" applyBodyTag="false" cache="false">
+    
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+
+  <title>NgApp</title>
+  <base href="/"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+
+
+  <script>
+    var __SFDC_RESOURCE_TOKEN__ = "{!URLFOR($Resource.ngxSfdcResources)}/";
+  </script>
+
+</head>
+<body>
+  <app-root></app-root>
+<script src="{!URLFOR($Resource.ngxSfdcResources)}/runtime-es2015.js" type="module"></script><script src="{!URLFOR($Resource.ngxSfdcResources)}/polyfills-es2015.js" type="module"></script><script src="{!URLFOR($Resource.ngxSfdcResources)}/styles-es2015.js" type="module"></script><script src="{!URLFOR($Resource.ngxSfdcResources)}/vendor-es2015.js" type="module"></script><script src="{!URLFOR($Resource.ngxSfdcResources)}/main-es2015.js" type="module"></script>
+<script>
+  var nms = [{"scriptSrc":"{!URLFOR($Resource.ngxSfdcResources)}/runtime-es5.js","defer":true,"nomodule":true},{"scriptSrc":"{!URLFOR($Resource.ngxSfdcResources)}/polyfills-es5.js","defer":true,"nomodule":true},{"scriptSrc":"{!URLFOR($Resource.ngxSfdcResources)}/styles-es5.js","defer":true,"nomodule":true},{"scriptSrc":"{!URLFOR($Resource.ngxSfdcResources)}/vendor-es5.js","defer":true,"nomodule":true},{"scriptSrc":"{!URLFOR($Resource.ngxSfdcResources)}/main-es5.js","defer":true,"nomodule":true}];
+  nms.forEach(function (s, si) {
+  var st = document.createElement('script');
+  st.setAttribute('src', s.scriptSrc);
+  if (s.nomodule) { st.setAttribute('nomodule', ''); }
+  if (s.defer){ st.setAttribute('defer', ''); }
+  document.body.appendChild(st);
+  });
+</script>
+</body>
+</html>
+
+</apex:page>
