@@ -27,4 +27,6 @@ echo "Creating org..."
 echo "sf force:org:create $DEFAULT_FLAG $DEVHUB_FLAG $ALIAS_FLAG -f config/project-scratch-def.json"
 sfdx force:org:create $DEFAULT_FLAG $DEVHUB_FLAG $ALIAS_FLAG -f config/project-scratch-def.json
 
-./setup/orgSetup.sh
+./setup/orgSetup.sh $ALIAS
+
+./setup/test.sh $ALIAS
